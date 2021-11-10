@@ -49,7 +49,6 @@ public class Login extends AbstractTest {
 
     }
 
-
     @AfterClass
     public void afterClass() {
         closeBrowserAndDriver(driver);
