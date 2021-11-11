@@ -514,7 +514,7 @@ public class AbstractPage {
         for (WebElement element : elementList) {
             arrayList.add(element.getText());
         }
-        System.out.println("======-------------Du lieu UI--------");
+        System.out.println("======-------------Data UI--------");
         for (String name : arrayList) {
             System.out.println(name + "\n");
         }
@@ -524,7 +524,7 @@ public class AbstractPage {
             sortedList.add(child);
         }
         Collections.sort(arrayList);
-        System.out.println("======-------------du lieu da sort asc trong code-----");
+        System.out.println("======-------------data sorted asc trong code-----");
         for (String name : arrayList) {
             System.out.println(name + "\n");
         }
@@ -539,7 +539,7 @@ public class AbstractPage {
         for (WebElement element : elementList) {
             arrayList.add(element.getText());
         }
-        System.out.println("======-------------Du lieu UI--------");
+        System.out.println("======-------------Data UI--------");
         for (String name : arrayList) {
             System.out.println(name);
         }
@@ -550,12 +550,12 @@ public class AbstractPage {
         }
 
         Collections.sort(arrayList);
-        System.out.println("======-------------du lieu da sort asc trong code-----");
+        System.out.println("======-------------data sorted asc trong code-----");
         for (String name : arrayList) {
             System.out.println(name + "\n");
         }
         Collections.reverse(arrayList);
-        System.out.println("======-------------du lieu da sort desc trong code-----");
+        System.out.println("======-------------data sorted desc trong code-----");
         for (String name : arrayList) {
             System.out.println("\n" + name);
         }
@@ -570,7 +570,7 @@ public class AbstractPage {
         for (WebElement element : elementList) {
             arrayList.add(Float.parseFloat(element.getText().replace("$", "").replaceAll(",", "").trim()));
         }
-        System.out.println("======-------------Du lieu UI--------");
+        System.out.println("======-------------Data UI--------");
         for (Float name : arrayList) {
             System.out.println(name + "\n");
         }
@@ -580,7 +580,7 @@ public class AbstractPage {
             sortedList.add(child);
         }
         Collections.sort(arrayList);
-        System.out.println("======-------------du lieu da sort asc trong code-----");
+        System.out.println("======-------------data sorted asc trong code-----");
         for (Float name : arrayList) {
             System.out.println(name + "\n");
         }
@@ -595,7 +595,7 @@ public class AbstractPage {
         for (WebElement element : elementList) {
             arrayList.add(Float.parseFloat(element.getText().replace("$", "").replaceAll(",", "").trim()));
         }
-        System.out.println("======-------------Du lieu UI--------");
+        System.out.println("======-------------Data UI--------");
         for (Float name : arrayList) {
             System.out.println(name);
         }
@@ -606,12 +606,12 @@ public class AbstractPage {
         }
 
         Collections.sort(arrayList);
-        System.out.println("======-------------du lieu da sort asc trong code-----");
+        System.out.println("======-------------data sorted asc trong code-----");
         for (Float name : arrayList) {
             System.out.println(name + "\n");
         }
         Collections.reverse(arrayList);
-        System.out.println("======-------------du lieu da sort desc trong code-----");
+        System.out.println("======-------------data sorted desc trong code-----");
         for (Float name : arrayList) {
             System.out.println("\n" + name);
         }
@@ -626,7 +626,7 @@ public class AbstractPage {
         for (WebElement element : elementList) {
             arrayList.add(convertStringToDate(element.getText()));
         }
-        System.out.println("======-------------Du lieu UI--------");
+        System.out.println("======-------------Data UI--------");
         for (Date name : arrayList) {
             System.out.println(name + "\n");
         }
@@ -636,7 +636,7 @@ public class AbstractPage {
             sortedList.add(child);
         }
         Collections.sort(arrayList);
-        System.out.println("======-------------du lieu da sort asc trong code-----");
+        System.out.println("======-------------data sorted asc trong code-----");
         for (Date name : arrayList) {
             System.out.println(name + "\n");
         }
